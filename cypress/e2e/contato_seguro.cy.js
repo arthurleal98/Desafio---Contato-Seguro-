@@ -110,7 +110,7 @@ describe('Excluir usuário', () => {
         // Verificar se a quantidade de usuários cadastrados diminuiu
         cy.get('div[class="sc-gsDKAQ JSdkd"] > table > tbody > tr').should('have.length', qtd)
     })
-
+})
 
 describe('Editar usuário', () => {
     it('Editar usuário com sucesso', () => {
