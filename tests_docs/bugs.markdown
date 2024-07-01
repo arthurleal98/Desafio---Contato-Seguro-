@@ -19,7 +19,7 @@ O sistema mostra a exclusão na interface de usuário, porém, o usuário alvo c
 
 ### Evidência
 
-<video controls src="midia/20240629-1906-14.4441324.mp4" title="Title"></video>
+<video controls src="midia/20240629-1906-14.4441324.gif" title="Title"></video>
 ---
 
 ## BUG_002 - Botão de editar não tem funcionalidade
@@ -38,7 +38,7 @@ Quando clicamos no botão de editar os dados do usuário nada acontece.
 3. Esperar abrir o modal de edição
 
 ### Evidência
-<video controls src="midia/20240629-1912-11.5576998.mp4" title="Title"></video>
+<video controls src="midia/20240629-1912-11.5576998.gif" title="Title"></video>
 
 
 ## BUG_003 - Tabela não responsiva com dados grandes
@@ -63,7 +63,7 @@ A tabela não apresenta quebra de linha nas suas linhas, o que prejudica a inter
 10. Vizualizar a estrutura da tabela.
 
 ### Evidências
-<video controls src="midia/20240629-1930-07.3393670.mp4" title="Title"></video>
+<video controls src="midia/20240629-1930-07.3393670.gif" title="Title"></video>
 
 ## BUG_004 - O campo "Email" do cadastro de novo usuário aceita qualquer valor não nulo de entrada
 
