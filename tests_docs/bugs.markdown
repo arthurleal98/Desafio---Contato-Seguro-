@@ -19,7 +19,7 @@ O sistema mostra a exclusão na interface de usuário, porém, o usuário alvo c
 
 ### Evidência
 
-<video controls src="midia/20240629-1906-14.4441324.gif" title="Title"></video>
+![evidencia](midia/20240629-1906-14.4441324.gif)
 ---
 
 ## BUG_002 - Botão de editar não tem funcionalidade
@@ -38,7 +38,7 @@ Quando clicamos no botão de editar os dados do usuário nada acontece.
 3. Esperar abrir o modal de edição
 
 ### Evidência
-<video controls src="midia/20240629-1912-11.5576998.gif" title="Title"></video>
+![evidencia](midia/20240629-1912-11.5576998.gif)
 
 
 ## BUG_003 - Tabela não responsiva com dados grandes
@@ -62,8 +62,8 @@ A tabela não apresenta quebra de linha nas suas linhas, o que prejudica a inter
 9. Clicar em "Salvar".
 10. Vizualizar a estrutura da tabela.
 
-### Evidências
-<video controls src="midia/20240629-1930-07.3393670.gif" title="Title"></video>
+### Evidência
+![evidencia](midia/20240629-1930-07.3393670.gif)
 
 ## BUG_004 - O campo "Email" do cadastro de novo usuário aceita qualquer valor não nulo de entrada
 
@@ -165,7 +165,7 @@ Quando criamos um novo usuário, o campo de entrada "Cidade de Nascimento" aceit
 ### Evidência
 ![alt text](midia/image-3.png)
 
-## BUG_007 - O campo de data do cadastro de novo usuário aceita valores não reais
+## BUG_008 - O campo de data do cadastro de novo usuário aceita valores não reais
 
 Quando criamos um novo usuário, o campo de entrada de data aceita valores não reais.
 
@@ -189,3 +189,27 @@ Quando criamos um novo usuário, o campo de entrada de data aceita valores não 
 
 ### Evidência
 ![alt text](midia/image-3.png)
+
+## BUG_009 - Erro ao criar usuário no end point “/api/user/create”
+
+Ao requisitar o endpoint “/api/user/create” utilizando o método POST. A requisição não suporta os dados mesmo utilizando exemplos padrões.
+
+**Requisitos**
+
+* Estar com o ambiente em funcionamento
+* Utilizar o Postman para requisições
+
+**Passos para reprodução**
+
+1. Criar um novo request no Postman
+2. Definir o método POST
+3. Inserir a url “http://localhost:8400/api/user/create”
+4. Passar o body
+	{“name”: “Novo Nome”,
+	“e-mail”: “novoemail@teste.com”,
+	“companies”: [“Nova Empresa”]}
+5. Enviar a requisição
+6. Verificar o retorno obtido
+
+Evidência
+![alt text](image.png)

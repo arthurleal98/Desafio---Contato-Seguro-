@@ -1,4 +1,4 @@
-# Melhorias
+# Melhorias sugeridas
 
 No front-end temos que fazer ajustes em alguns campos
 
