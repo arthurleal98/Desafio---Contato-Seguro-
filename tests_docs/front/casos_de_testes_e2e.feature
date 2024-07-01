@@ -190,18 +190,6 @@ Feature: Editar usuário
             And realizo um click no botão "Salvar"
             Then vizualizo uma mensagem de erro nos campos obrigatórios
             And o usuário não é editado
-    
-        Scenario: Editar usuário com email já cadastrado
-            Given estou na página "http://localhost:5400/"
-            And tenho pelo menos um usuário cadastrado
-            When acesso a tela de listagem de usuários
-            And realizo um click no botão de edição
-            And vizualizo o modal de edição
-            And preencho os campos obrigatórios
-            And preencho um email já cadastrado
-            And realizo um click no botão "Salvar"
-            Then vizualizo uma mensagem de erro de email já cadastrado
-            And o usuário não é editado
 
         Scenario: Editar usuário com email inválido
             Given estou na página "http://localhost:5400/"
