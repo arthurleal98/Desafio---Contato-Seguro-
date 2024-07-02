@@ -4,7 +4,7 @@
 **Autor: Arthur Leal**
 
 ## 1. Descrição
----
+
 
 Este documento tem como objetivo mostrar as habilidades e conhecimentos na área de QA.
 
@@ -18,7 +18,7 @@ O documento apresenta as seguintes partes para a avaliação:
 - Testes automatizados
 
 ## 2. Configuração de ambiente
----
+
 
 É necessário a instalação do Docker na máquina.
 
@@ -65,3 +65,9 @@ Isso organiza o texto em seções e formatação adequada para ser lido como um 
 ## 6. Testes automatizados
 
 * [Testes automatizados](cypress/e2e/contato_seguro.cy.js)
+
+## 7. Testes de API com Postman
+
+Basta importar no Postman e executar os testes
+
+* [Postman.json](tests_docs/api/Testes%20API.postman_collection.json)
