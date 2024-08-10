@@ -6,12 +6,12 @@
 ## Índice
 
 1. [Descrição](#1-descrição)
-2. [Configuração de ambiente](#configuração-de-ambiente)
-3. [Testes em BDD com Gherkin](#testes-em-bdd-com-gherkin)
-4. [Melhorias sugeridas](#melhorias-sugeridas)
-5. [Bugs encontrados](#bugs-encontrados)
-6. [Testes automatizados](#testes-automatizados)
-7. [Testes de API com Postman](#testes-de-api-com-postman)
+2. [Configuração de ambiente](#2-configuração-de-ambiente)
+3. [Testes em BDD com Gherkin](#3-testes-em-bdd-com-gherkin)
+4. [Melhorias sugeridas](#4-melhorias-sugeridas)
+5. [Bugs encontrados](#5-bugs-encontrados)
+6. [Testes automatizados](#6-testes-automatizados)
+7. [Testes de API com Postman](#7-testes-de-api-com-postman)
 
 ## 1. Descrição
 
