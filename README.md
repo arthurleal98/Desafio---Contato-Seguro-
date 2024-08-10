@@ -5,7 +5,7 @@
 
 ## Índice
 
-1. [Descrição](#descrição)
+1. [Descrição](#1descrição)
 2. [Configuração de ambiente](#configuração-de-ambiente)
 3. [Testes em BDD com Gherkin](#testes-em-bdd-com-gherkin)
 4. [Melhorias sugeridas](#melhorias-sugeridas)
